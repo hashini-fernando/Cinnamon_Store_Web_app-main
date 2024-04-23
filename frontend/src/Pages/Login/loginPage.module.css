@@ -1,0 +1,42 @@
+
+.body1 {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../../public/products/backgroundlogin.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+   
+}
+
+
+.details {
+  width: 28rem;
+  background-color: rgba(255, 255, 255, 0.7); 
+  padding: 2rem;
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.register {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+

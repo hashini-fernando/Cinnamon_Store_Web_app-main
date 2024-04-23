@@ -1,0 +1,104 @@
+
+.header {
+    background: #3c3c3c;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #000;
+    font-family: 'Arial', sans-serif;
+}
+
+.header a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.header a:hover {
+    color: #b3a317;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+/* Logo Styles */
+.logo {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Navigation Styles */
+.header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.header ul a {
+    padding: 1rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Dropdown Menu Styles */
+.menu_container {
+    position: relative;
+}
+
+.menu {
+    position: absolute;
+    z-index: 1;
+    background-color: #3c3c3c;
+    display: none;
+    border: 1px solid #555;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.menu_container:hover .menu {
+    display: block;
+}
+
+.menu a {
+    width: 100%;
+    display: block;
+    padding: 0.75rem 1rem;
+    text-align: left;
+    text-transform: none;
+}
+
+/* Cart Count Styles */
+.cart_count {
+    background-color: #b3a317;
+    color: #fff;
+    border-radius: 50%;
+    font-size: 1rem;
+    padding: 0.3rem 0.5rem;
+    margin-left: 0.5rem;
+}
+
+/* Logout Button Styles */
+.logoutButton {
+    background-color: #f1ef53; /* Background color (yellow) */
+    color: #000; /* Text color */
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  .logoutButton:hover {
+    background-color: #e5e33a; /* Change background color on hover */
+  }

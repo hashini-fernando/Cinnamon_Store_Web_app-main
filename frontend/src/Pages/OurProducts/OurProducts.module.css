@@ -1,0 +1,49 @@
+.container_01{
+    background-color: #DECC2C;
+}
+
+
+
+.container_01 ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+}
+
+
+.paragraph_4{
+    color: #000;
+    text-align: center;
+    font-family: HeadlandOne;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    
+}
+
+.paragraph_5{
+    margin-bottom: 10px ;
+    color: #000;
+    text-align: center;
+    font-family: Times New Roman;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.tagcontainer{
+
+    height: 73px;
+    flex-shrink: 0;
+}
+.paragraph_6{
+    color: #000;
+text-align: left;
+font-family: Happy Monkey;
+font-size: 35px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}

@@ -1,0 +1,40 @@
+
+.body12 {
+  margin: 0;
+  padding: 0;
+  background-image: url('../../../public/products/backgroundlogin.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 110vh; 
+}
+
+
+.details {
+  width: 25rem;
+  background-color: rgba(250, 255, 255, 0.7);
+  margin-left: 450px;
+  
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
